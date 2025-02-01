@@ -9,7 +9,7 @@ import Foundation
 
 public func bubbleSort<T: Comparable>(
     array: [T],
-    isInIncreasingOrder: (T, T) -> Bool
+    _ isInIncreasingOrder: (T, T) -> Bool
 ) -> [T] {
     var result = array
     
